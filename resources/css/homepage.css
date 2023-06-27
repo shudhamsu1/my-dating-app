@@ -1,0 +1,45 @@
+
+/* footer section */
+/* Footer styles */
+footer {
+  font-size: 14px;
+  color: #555;
+}
+
+footer h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #0275d8;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+
+  footer h5 {
+    margin-top: 30px;
+  }
+}
